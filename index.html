@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Credit Card</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Enter Card Details</h1>
+	<form>
+		<label>Select Bank Name:</label>
+		<select>
+			<option value="icici">ICICI Bank</option>
+			<option value="sbi">SBI Bank</option>
+			<option value="hdfc">HDFC Bank</option>
+			<option value="citi">CITI Bank</option>
+		</select>
+	</form>
+	<div class="main">
+		<div class="top">
+			<div class="pay">	
+				<img src="amz.png">
+			</div>
+			<div class="logo">	
+				<img src="logo.png">
+			</div>
+		</div>	
+		<div class="mid">
+			<div class="chip">	
+				<img src="download.png">
+			</div>
+			<div class="conn">	
+				<img src="contactless.png">
+			</div>	
+		</div>
+		<div class="info">
+			<div class="num">
+				<p>XXXX</p>&nbsp;&nbsp; 
+				<p>XXXX</p>&nbsp;&nbsp;
+				<p>XXXX</p>&nbsp;&nbsp;
+				<p>XXXX</p>
+			</div>
+			<div class="exp">
+				<div class="from">
+					<p>VALID<br>FROM</p>
+					<p>MM/YY</p>
+				</div>
+				<div class="thru">
+					<p>VALID<br>THRU</p>
+					<p>MM/YY</p>
+				</div>
+			</div>	
+		</div>
+		<div class="bottom">
+			<p>JOHN DOE</p>
+			<img src="unnamed.png">
+		</div>
+	</div>
+	<div class="back">
+		<div class="black">
+		</div>
+		<div class="details">
+			<div class="def">
+				<p>9999</p>
+			</div>
+			<div class="cv">
+				<p>XXX</p>
+			</div>
+		</div>
+	</div>
+	<form>
+		<input type="text" placeholder="Enter Full Name" class="flags" maxlength="25"><br>
+		<span></span>
+		<br>
+		<input type="text" placeholder="Enter Card Number" class="flags" maxlength="16"><br>
+		<span></span>
+		<br>
+		<input type="text" placeholder="Enter Issue Month" class="flags" maxlength="5"><br>
+		<span></span>
+		<br>
+		<input type="text" placeholder="Enter Expiry Month" class="flags" maxlength="5"><br>
+		<span></span>
+		<br>
+		<input type="text" placeholder="Enter CVV" maxlength="3"><br>
+		<span></span>
+	</form>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
