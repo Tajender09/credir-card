@@ -110,7 +110,7 @@ form:last-of-type{
 }
 .bottom p{
 	font-size: 1.2rem;
-	margin-top: 7px;
+	margin-top: 10px;
 	text-shadow: 2px 2px 4px black;
 }
 .bottom img{
@@ -281,7 +281,7 @@ form input{
 		font-size: 1rem;
 	}
 	.back{
-		height: 40%;
+		height: 25%;
 		width: 90%;
 		border-radius: 10px;
 	}
